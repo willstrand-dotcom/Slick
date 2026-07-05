@@ -137,23 +137,23 @@ body::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 47%;
-  height: 28px;
-  margin-top: -14px;
+  width: 43%;
+  height: 32px;
+  margin-top: -16px;
   transform-origin: 0 50%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-right: clamp(22px, 3.2vmin, 34px);
+  padding-right: clamp(12px, 2vmin, 24px);
   color: #fff;
-  font-size: clamp(10px, 1.45vmin, 16px);
+  font-size: clamp(12px, 2.05vmin, 21px);
   font-weight: 950;
   text-align: right;
   text-shadow:
     0 2px 2px rgb(0 0 0 / 0.46),
     0 0 8px rgb(0 0 0 / 0.24);
   line-height: 1;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .center-photo {
@@ -161,27 +161,26 @@ body::before {
   inset: 50%;
   z-index: 3;
   display: grid;
-  width: clamp(210px, 42%, 320px);
+  width: clamp(138px, 29%, 218px);
   aspect-ratio: 1;
-  border: clamp(10px, 1.8vmin, 16px) solid #fff;
+  border: 8px solid #fff;
   border-radius: 50%;
   background:
     radial-gradient(circle at 50% 35%, #ffe7d6 0 42%, #ff4bd8 43% 64%, #4a1cff 65%);
   box-shadow:
     0 8px 18px rgb(0 0 0 / 0.35),
     0 0 0 8px rgb(255 35 134 / 0.55);
-  overflow: visible;
+  overflow: hidden;
   place-items: center;
   transform: translate(-50%, -50%);
 }
 
 .center-photo img {
   width: auto;
-  height: 92%;
+  height: 76%;
   object-fit: contain;
   object-position: center;
-  border-radius: 42% / 50%;
-  filter: drop-shadow(0 8px 10px rgb(0 0 0 / 0.3));
+  border-radius: 8px;
 }
 
 .controls {

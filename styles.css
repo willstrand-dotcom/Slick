@@ -161,11 +161,12 @@ body::before {
   inset: 50%;
   z-index: 3;
   display: grid;
-  width: clamp(116px, 24%, 172px);
+  width: clamp(138px, 29%, 218px);
   aspect-ratio: 1;
   border: 8px solid #fff;
   border-radius: 50%;
-  background: #fff;
+  background:
+    radial-gradient(circle at 50% 35%, #ffe7d6 0 42%, #ff4bd8 43% 64%, #4a1cff 65%);
   box-shadow:
     0 8px 18px rgb(0 0 0 / 0.35),
     0 0 0 8px rgb(255 35 134 / 0.55);
@@ -175,9 +176,10 @@ body::before {
 }
 
 .center-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 92%;
+  height: 92%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .controls {

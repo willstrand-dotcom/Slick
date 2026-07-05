@@ -16,4 +16,4 @@ Gå sedan till `http://localhost:8766`.
 
 ## Centrum-bild
 
-Appen använder `assets/friend.svg` som centrum-bild. Ersätt den filen med den riktiga bilden, eller ändra `src` i `index.html` om bilden har ett annat filnamn.
+Appen använder `assets/friend.jpg` som centrum-bild.

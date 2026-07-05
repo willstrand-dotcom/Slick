@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+  <title id="title">Tillfällig centrum-bild</title>
+  <desc id="desc">En färgstark placeholder för centrum-bilden.</desc>
+  <defs>
+    <radialGradient id="bg" cx="35%" cy="25%" r="78%">
+      <stop offset="0" stop-color="#fff36b"/>
+      <stop offset=".42" stop-color="#ff3bbd"/>
+      <stop offset="1" stop-color="#4a1cff"/>
+    </radialGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bg)"/>
+  <circle cx="150" cy="130" r="66" fill="#ffe0b7"/>
+  <circle cx="125" cy="122" r="10" fill="#151515"/>
+  <circle cx="175" cy="122" r="10" fill="#151515"/>
+  <path d="M119 160c20 23 45 23 62 0" fill="none" stroke="#151515" stroke-width="10" stroke-linecap="round"/>
+  <path d="M78 92c28-54 106-70 148 0-42-16-92-15-148 0Z" fill="#21102e"/>
+  <text x="150" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#fff">BYT BILD</text>
+</svg>

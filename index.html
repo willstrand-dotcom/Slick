@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slick</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="stage" aria-label="Slick lyckohjul">
+        <div class="wheel-wrap">
+          <div class="pointer" aria-hidden="true"></div>
+          <div class="wheel" id="wheel">
+            <div class="wheel-face" id="wheelFace"></div>
+            <div class="label-layer" id="labelLayer"></div>
+            <div class="center-photo">
+              <img src="assets/friend.svg" alt="Centrum-bild" />
+            </div>
+          </div>
+        </div>
+
+        <aside class="controls">
+          <h1>Slick</h1>
+          <button class="spin-button" id="spinButton" type="button">Tryck</button>
+          <p class="result" id="result" aria-live="polite">Redo för snurr.</p>
+        </aside>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

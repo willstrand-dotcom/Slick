@@ -176,10 +176,11 @@ body::before {
 }
 
 .center-photo img {
-  width: 92%;
-  height: 92%;
+  width: auto;
+  height: 76%;
   object-fit: contain;
   object-position: center;
+  border-radius: 8px;
 }
 
 .controls {
